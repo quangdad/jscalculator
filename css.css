@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 10px auto;
+    width: 210px;
+    height: fit-content;
+    background-color:rgb(211, 212, 212);
+    padding: 2px;
+}
+.keyboard{
+    /* height: fit-content; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+.screen{
+    background-color: #EFEFEF;
+    height: 60;
+    border-radius: 1%;
+    border: 1.5px solid black;
+    position: relative;
+}
+button{
+    height: 30;
+    outline: none;
+    border: 0.1px solid rgb(212, 212, 212);
+    background-color: rgb(252, 250, 250);
+}
+.item4{
+    background-color: rgb(241, 65, 65);
+}
+.item5{
+    background-color: rgb(241, 65, 65);
+}
+.item:hover{
+    background-color: rgb(201, 199, 199);
+}
+.item5:hover  {
+    background-color: salmon;
+}
+.item4:hover  {
+    background-color: salmon;
+}
+.screen .input{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 20;
+    z-index: 222;
+}
+
